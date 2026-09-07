@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foundation Launch Announcement - SRM Foundation</title>
+<meta name="description" content="Viaro Energy CEO Francesco Mazzagatti launches the SRM Foundation and signs a strategic partnership with Robert Gordon University.">
+<link rel="icon" type="image/png" href="../img/dark-logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo"><img src="../img/main-logo.png" alt="SRM Foundation"></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about-us">About Us</a></li>
+      <li><a href="/our-initiatives">Initiatives</a></li>
+      <li><a href="mailto:inquiries@srmfoundation.co.uk">Get Involved</a></li>
+      <li><a href="/blog" class="nav-cta">News</a></li>
+    </ul>
+  </div>
+</nav>
+
+<article class="article no-hero">
+  <div class="article-inner">
+    <div class="article-meta">News · Jul 29, 2024 · 2 min read</div>
+    <h1>Viaro Energy CEO Francesco Mazzagatti Launches Charitable Foundation to Invest in UK's Clean Energy Future &amp; Signs Strategic Partnership with Robert Gordon University</h1>
+  </div>
+  <div class="article-hero-img">
+    <img src="../img/ev-charging-station.jpg" alt="Clean energy transition, EV charging">
+  </div>
+  <div class="article-inner">
+    <p>The SRM Foundation ("SRM"), registered under the Charity Commission in England and Wales, and its Chief Executive Officer Francesco Mazzagatti are proud to launch an ambitious new initiative to accelerate the global transition to a regenerative energy economy.</p>
+
+    <p>The London-based SRM Foundation will endorse projects that mitigate the effects of climate change and enhance biodiversity, as well as provide support for research and innovation initiatives at higher-education institutions. The foundation's work will be tailored to address the unique challenges and opportunities facing the UK in its transition to a clean energy future.</p>
+
+    <p>Incorporated as a general charity, the SRM Foundation was founded on the principle that the clean energy transition is an inherently democratic process. In its project selection, the SRM Foundation will seek to recognise the interconnected nature of climate change, social inequality and economic disparities.</p>
+
+    <p>By adopting a well-rounded approach to the needed changes, the foundation will champion solutions that provide the means for the pillars of local communities to have a meaningful voice in shaping their energy future and make sure that the benefits of clean energy are distributed equitably.</p>
+
+    <blockquote>
+      <p>"I am proud to see the SRM Foundation up and running and grateful for the Charity Commission's swift approval, which signals a clear need for more climate philanthropy initiatives of this kind. Our vision for the foundation is the result of what we have observed to be the main challenges that local communities face in the transition, both directly through the operations of companies such as mine and conversations with experts tackling climate change from various different angles that are helping us understand how we can best contribute."</p>
+      <cite>Francesco Mazzagatti, CEO, SRM Foundation</cite>
+    </blockquote>
+
+    <p>At its inception, the SRM Foundation has launched a strategic partnership with <strong>Robert Gordon University</strong> in Scotland, which will include:</p>
+
+    <ul>
+      <li>Support for students from groups traditionally under-represented at university, and creating opportunities for their employment.</li>
+      <li>Contributing to the university's research, innovation and entrepreneurship ambitions.</li>
+      <li>Supporting RGU's campus developments in relation to biodiversity and net-zero ambitions.</li>
+      <li>Raising awareness on the different ways young people can contribute to a just and fair energy transition, in collaboration with third-party organisations tackling climate change and by boosting their international exposure.</li>
+    </ul>
+
+    <blockquote>
+      <p>"We are particularly excited about the partnership with Robert Gordon University, a trailblazer in innovation among higher-education institutions. Each major social change must be implemented with young people at heart, and without leaving them discouraged about the future. Energy is at the core of the Scottish economy and we have a particular responsibility to help the current and future workforce find their place in the transition."</p>
+      <cite>Francesco Mazzagatti, CEO, SRM Foundation</cite>
+    </blockquote>
+
+    <p style="margin-top:40px;"><a href="/blog" class="read-more">← Back to News</a></p>
+  </div>
+</article>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo"><img src="../img/white-logo.png" alt="SRM Foundation"></div>
+        <p class="footer-tagline">The foundation of change today to power the possibilities of tomorrow.</p>
+        <div class="footer-social" style="margin-top:20px;">
+          <a href="https://www.linkedin.com/company/the-srm-foundation/about/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../img/linkedin.png" alt="LinkedIn"></a>
+          <a href="https://x.com/foundationsrm" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><img src="../img/twitter.png" alt="Twitter"></a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about-us">About Us</a></li>
+          <li><a href="/our-initiatives">Initiatives</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+442038264800">+44 203 826 4800</a></li>
+          <li><a href="mailto:inquiries@srmfoundation.co.uk">inquiries@srmfoundation.co.uk</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 SRM Foundation. Registered charity in England and Wales.</p>
+    </div>
+  </div>
+</footer>
+<button class="back-top" id="backTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"></polyline></svg>
+</button>
+<script>
+const nav = document.getElementById('navbar');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+const toggle = document.getElementById('navToggle');
+const links = document.getElementById('navLinks');
+toggle.addEventListener('click', () => links.classList.toggle('open'));
+links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+
+// Back to top
+const backTop = document.getElementById('backTop');
+if (backTop) {
+  window.addEventListener('scroll', () => backTop.classList.toggle('show', window.scrollY > 600));
+  backTop.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+}
+
+// Accordion (if present)
+document.querySelectorAll('.accordion-item').forEach(item => {
+  const btn = item.querySelector('.accordion-btn');
+  const content = item.querySelector('.accordion-content');
+  btn.addEventListener('click', () => {
+    const isOpen = item.classList.toggle('open');
+    btn.setAttribute('aria-expanded', isOpen);
+    content.style.maxHeight = isOpen ? content.scrollHeight + 'px' : '0';
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News Archive - SRM Foundation</title>
+<meta name="description" content="Latest news, announcements and perspectives from the SRM Foundation on the UK clean energy transition and our partner projects.">
+<link rel="icon" type="image/png" href="img/dark-logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo"><img src="img/main-logo.png" alt="SRM Foundation"></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about-us">About Us</a></li>
+      <li><a href="/our-initiatives">Initiatives</a></li>
+      <li><a href="mailto:inquiries@srmfoundation.co.uk">Get Involved</a></li>
+      <li><a href="/blog" class="nav-cta">News</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('img/turbine-closeup.jpg');"></div>
+  <div class="page-hero-content">
+    <div class="breadcrumb"><a href="/">Home</a><span>/</span>News</div>
+    <span class="section-label">News &amp; Updates</span>
+    <h1>News from the SRM Foundation.</h1>
+    <p>Updates on our projects, partnerships and perspectives on the clean energy transition.</p>
+  </div>
+</section>
+
+<section class="news-archive">
+  <div class="container">
+    <div class="news-grid">
+
+      <a href="/post/creating-the-next-generation-of-green-energy-leaders-through-our-initiatives-at-rgu" class="news-card-simple">
+        <div class="thumb"><img src="img/engineer-laptop.jpg" alt="Green energy leaders"></div>
+        <div class="body">
+          <div class="meta">Jan 22, 2025 · 4 min read</div>
+          <h3>Creating the Next Generation of Green Energy Leaders Through Our Initiatives at RGU</h3>
+          <span class="read-more">Read article →</span>
+        </div>
+      </a>
+
+      <a href="/post/srm-foundation-partners-with-robert-gordon-university-on-waterside-farm-project-to-boost-biodiversity" class="news-card-simple">
+        <div class="thumb"><img src="img/rgu-01.jpg" alt="Waterside Farm"></div>
+        <div class="body">
+          <div class="meta">Dec 4, 2024 · 4 min read</div>
+          <h3>SRM Foundation partners with Robert Gordon University on Waterside Farm Project to Boost Biodiversity</h3>
+          <span class="read-more">Read article →</span>
+        </div>
+      </a>
+
+      <a href="/post/viaro-energy-ceo-francesco-mazzagatti-launches-charitable-foundation-to-invest-in-uk-s-clean-energy" class="news-card-simple">
+        <div class="thumb"><img src="img/ev-charging-station.jpg" alt="Clean energy transition"></div>
+        <div class="body">
+          <div class="meta">Jul 29, 2024 · 2 min read</div>
+          <h3>Viaro Energy CEO Francesco Mazzagatti Launches Charitable Foundation to Invest in UK's Clean Energy Future</h3>
+          <span class="read-more">Read article →</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo"><img src="img/white-logo.png" alt="SRM Foundation"></div>
+        <p class="footer-tagline">The foundation of change today to power the possibilities of tomorrow.</p>
+        <div class="footer-social" style="margin-top:20px;">
+          <a href="https://www.linkedin.com/company/the-srm-foundation/about/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><img src="img/linkedin.png" alt="LinkedIn"></a>
+          <a href="https://x.com/foundationsrm" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><img src="img/twitter.png" alt="Twitter"></a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about-us">About Us</a></li>
+          <li><a href="/our-initiatives">Initiatives</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+442038264800">+44 203 826 4800</a></li>
+          <li><a href="mailto:inquiries@srmfoundation.co.uk">inquiries@srmfoundation.co.uk</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 SRM Foundation. Registered charity in England and Wales.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+const nav = document.getElementById('navbar');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+const toggle = document.getElementById('navToggle');
+const links = document.getElementById('navLinks');
+toggle.addEventListener('click', () => links.classList.toggle('open'));
+links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+</script>
+</body>
+</html>
